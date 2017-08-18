@@ -4,8 +4,8 @@ This script was made to compile, install, configure and launch xmr-stak-cpu as f
 
 Tu run it simply paste :
 ```
-git clone https://github.com/Kuaaaly/xmr-mining.git
-bash ./xmr-mining/xmr-mining.sh
+git clone https://github.com/Kuaaaly/fast-xmr-mining.git
+bash ./fast-xmr-mining/run.sh
 ```
 
 Prerequisites :
