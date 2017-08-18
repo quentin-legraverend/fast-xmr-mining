@@ -10,7 +10,7 @@ git clone https://github.com/Kuaaaly/fast-xmr-mining.git
 Exemple :
 ```
 ./fast-xmr-mining/run.sh pool.supportxmr.com 3333 49XUqEGV4jq7Vy4Lujs5kC77S68tMquYH2ZUPLvC4dBQBM4gEzRDqo37DK7dMCjZjTBJUpsAbeqRedsQ9wdhrfJ21Dzf9zG PC:kuaaaly@gmail.com 1 false
- ``
+```
 
  Will set the miner to mine on supportXMR, without TLS, and with all the other parameters
 
