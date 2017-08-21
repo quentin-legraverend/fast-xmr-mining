@@ -5,7 +5,7 @@ This script was made to compile, install, configure and launch xmr-stak-cpu as f
 Tu run it simply paste :
 ```
 git clone https://github.com/Kuaaaly/fast-xmr-mining.git
-./fast-xmr-mining/run.sh POOL_ADDRESS POOL_PORT WALLET_ADDRESS POOL_PASSWORD DONATION_LEVEL(**to xmr-stak-cpu developers, not me**) TLS (true or false)
+./fast-xmr-mining/run.sh POOL_ADDRESS POOL_PORT WALLET_ADDRESS POOL_PASSWORD DONATION_LEVEL(to xmr-stak-cpu developers, not me) TLS (true or false)
 ```
 Exemple :
 ```
