@@ -5,19 +5,19 @@ This script was made to compile, install, configure and launch xmr-stak-cpu as f
 Tu run it simply paste :
 ```
 git clone https://github.com/Kuaaaly/fast-xmr-mining.git
-./fast-xmr-mining/run.sh POOL_ADDRESS POOL_PORT WALLET_ADDRESS POOL_PASSWORD DONATION_LEVEL TLS (true or false)
+./fast-xmr-mining/run.sh POOL_ADDRESS POOL_PORT WALLET_ADDRESS POOL_PASSWORD DONATION_LEVEL(to xmr-stak-cpu developers) TLS (true or false)
 ```
 Exemple :
 ```
 ./fast-xmr-mining/run.sh pool.supportxmr.com 3333 49XUqEGV4jq7Vy4Lujs5kC77S68tMquYH2ZUPLvC4dBQBM4gEzRDqo37DK7dMCjZjTBJUpsAbeqRedsQ9wdhrfJ21Dzf9zG PC:kuaaaly@gmail.com 1 false
 ```
 
- Will set the miner to mine on supportXMR, without TLS, and with all the other parameters
+ Will set the miner to mine on supportXMR, without TLS, and a donation level of 1% to xmr-stak-cpu developers and with all the other parameters
 
 Prerequisites :
 - Debian based distro
 - Sudo access
-- 2 cores machine (otherwise, you would have modifications to make to config.txt file)
+- 2 cores machine (otherwise, you would have modifications to make to config.txt file, it will be one of the next improvements, see below)
 
 Next improvements :
 - Run xmr-stak-cpu as dedicated user (not root). I don't have actually done it because I were in a hurry tonigh
