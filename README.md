@@ -21,7 +21,6 @@ Prerequisites :
 
 Next improvements :
 - Run xmr-stak-cpu as dedicated user (not root). I don't have actually done it because I were in a hurry tonigh
-- Support all hardware / CPU configuration by running xmr-stak-cpu with "cpu_threads_conf": null, first
 
 If you think I deserve it, donations are more than welcome :
 ```

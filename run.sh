@@ -8,8 +8,10 @@ sed -ie "s/2.0/$5/" donate-level.h
 cmake .
 make install
 cd bin/
+CPU_CONF="$(./xmr-stak-cpu config.txt |sed -n '/^\"cpu/,/\]/p')"
 rm -f config.txt
 cp ../../config.txt .
+echo "$CPU_CONF" >> config.txt
 sed -ie "s/POOL_ADDRESS/$1/" config.txt
 sed -ie "s/POOL_PORT/$2/" config.txt
 sed -ie "s/WALLET_ADDRESS/$3/" config.txt
