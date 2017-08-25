@@ -11,7 +11,7 @@ Actually all the options are needed. Given that there is no verifications on arg
 
 Exemple :
 ```
-./fast-xmr-mining/run.sh pool.supportxmr.com 3333 49XUqEGV4jq7Vy4Lujs5kC77S68tMquYH2ZUPLvC4dBQBM4gEzRDqo37DK7dMCjZjTBJUpsAbeqRedsQ9wdhrfJ21Dzf9zG GitHub:kuaaaly@gmail.com 1 false
+./fast-xmr-mining/run.sh pool.supportxmr.com 3333 49XUqEGV4jq7Vy4Lujs5kC77S68tMquYH2ZUPLvC4dBQBM4gEzRDqo37DK7dMCjZjTBJUpsAbeqRedsQ9wdhrfJ21Dzf9zG GitHub:you@mail.com 1 false
 ```
 
 If you failed and want to restart from scratch, just `rm -rf fast-xmr-mining`.
